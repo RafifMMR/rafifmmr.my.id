@@ -46,12 +46,12 @@ export function ScrollTop({
           {...props}
         >
           <motion.button
-            initial={{ opacity: 0, translateY: 16 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{
               opacity: scrollDirection === "up" ? 1 : 0.3,
-              translateY: 0,
+              y: 0,
             }}
-            exit={{ translateY: 16, opacity: 0 }}
+            exit={{ y: 16, opacity: 0 }}
             transition={{ duration: 0.5 }}
           >
             <ChevronUpIcon className="size-6" />

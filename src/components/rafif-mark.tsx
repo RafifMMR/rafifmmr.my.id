@@ -1,6 +1,7 @@
 export function RafifMark(props: React.ComponentProps<"svg">) {
   return (
     <svg
+      {...props}
       width="151"
       height="155"
       viewBox="0 0 151 155"

@@ -42,11 +42,11 @@ function RafifMarkMotion() {
       viewBox="0 0 512 256"
       initial={{
         opacity: 0,
-        translateY: 8,
+        y: 8,
       }}
       animate={{
         opacity: visible ? 1 : 0,
-        translateY: visible ? 0 : 8,
+        y: visible ? 0 : 8,
       }}
       transition={{ duration: 0.3 }}
     >
