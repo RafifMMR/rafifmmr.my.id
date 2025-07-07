@@ -26,13 +26,11 @@ export const USER = {
     },
   ],
   about: `
-Hello, World! I am Chánh Đại — a Software Developer & UI/UX Designer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+Hello, World! I’m Rafif M.M.R — a hybrid Frontend Developer & UI/UX Designer passionate about building intuitive, fast, and modern digital experiences.
 
-With 5+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+Since 2022, I’ve been crafting web interfaces using React, Next.js, and Tailwind CSS, while also designing seamless user journeys with Figma. I recently started exploring Rust and enjoy combining code with design in meaningful ways.
 
-One of my key projects, [ZaDark](https://zadark.com), enhances the Zalo experience on PC and Web, surpassing 80,000 downloads on [SourceForge](https://sourceforge.net/projects/zadark) and 15,000 active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob) since 2022.
-
-Let's connect and collaborate!
+Beyond work, I love diving into new technologies, writing blogs, experimenting with ideas (stay tuned for my upcoming AI Chat Code project 👀), and even spending time in the field — literally — as I enjoy trading and farming too.
   `,
   avatar:
     "https://res.cloudinary.com/dnuusu1kb/image/upload/v1750139537/rafifmmr-pp.jpg",

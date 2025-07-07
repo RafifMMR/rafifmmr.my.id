@@ -2,39 +2,39 @@ import type { SocialLink } from "../types/social-links";
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/linkedin.webp",
+    icon: "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751856280/LinkedIn-460.png",
     title: "LinkedIn",
     description: "rafifmmr",
-    href: "https://linkedin.com/in/ncdai",
+    href: "https://www.linkedin.com/in/rafif-muhammad-mr/",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/github.webp",
+    icon: "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751856436/Github-460.png",
     title: "GitHub",
     description: "rafifmmr",
-    href: "https://github.com/ncdai",
+    href: "https://github.com/RafifMMR",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/dailydev.webp",
-    title: "daily.dev",
+    icon: "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751857286/Instagram-460.png",
+    title: "Instagram",
     description: "@rafifmmr",
-    href: "https://app.daily.dev/ncdai",
+    href: "https://www.instagram.com/_rff.mmr/",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/x.webp",
+    icon: "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751857576/Threads-460.png",
+    title: "Threads",
+    description: "@rafifmmr",
+    href: "https://www.threads.com/@_rff.mmr",
+  },
+  {
+    icon: "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751857575/X-460.png",
     title: "X",
-    description: "@rafifmmr",
-    href: "https://x.com/iamncdai",
-  },
-  {
-    icon: "https://assets.chanhdai.com/images/link-icons/zalo.webp",
-    title: "Zalo",
     description: "rafifmmr",
-    href: "https://zalo.me/2353934240045322830",
+    href: "https://x.com/RafifMuhammadMR",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/youtube.webp",
-    title: "YouTube",
+    icon: "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751857576/Discord-460.png",
+    title: "Discord",
     description: "@rafifmmr",
-    href: "https://www.youtube.com/@ncdai",
+    href: "https://discord.com/users/573878879177932813",
   },
 ];
