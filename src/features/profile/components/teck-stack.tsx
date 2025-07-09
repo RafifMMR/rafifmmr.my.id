@@ -31,28 +31,28 @@ export function TeckStack() {
                   rel="noopener noreferrer"
                   aria-label={item.title}
                 >
-                  {item.theme ? (
+                  {item.theme && item.darkImage ? (
                     <>
                       <Image
-                        src={`https://assets.chanhdai.com/images/tech-stack-icons/${item.key}-light.svg`}
+                        src={item.image}
                         alt={`${item.title} light icon`}
                         width={32}
                         height={32}
-                        className="hidden [html.light_&]:block"
+                        className="block dark:hidden"
                         unoptimized
                       />
                       <Image
-                        src={`https://assets.chanhdai.com/images/tech-stack-icons/${item.key}-dark.svg`}
+                        src={item.darkImage}
                         alt={`${item.title} dark icon`}
                         width={32}
                         height={32}
-                        className="hidden [html.dark_&]:block"
+                        className="hidden dark:block"
                         unoptimized
                       />
                     </>
                   ) : (
                     <Image
-                      src={`https://assets.chanhdai.com/images/tech-stack-icons/${item.key}.svg`}
+                      src={item.image}
                       alt={`${item.title} icon`}
                       width={32}
                       height={32}
