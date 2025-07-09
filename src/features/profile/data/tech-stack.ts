@@ -58,7 +58,7 @@ export const TECH_STACK: TechStack[] = [
     href: "https://getbootstrap.com/",
     categories: ["Framework"],
     image:
-      "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751958652/bootstrap-original.svg",
+      "https://res.cloudinary.com/dnuusu1kb/image/upload/v1752045132/bootstrapcss-original.svg",
   },
   {
     key: "tailwind-css",
