@@ -25,6 +25,16 @@ export function ProfileHeader() {
         </div>
       </div>
 
+      {/* Flag of Indonesia */}
+      <svg
+        className="absolute top-0 -left-px h-8 rounded sm:h-9"
+        viewBox="0 0 30 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="30" height="20" fill="#FFF" />
+        <rect width="30" height="10" fill="#E31D1A" />
+      </svg>
+
       <div className="flex flex-1 flex-col">
         <div
           className={cn(
