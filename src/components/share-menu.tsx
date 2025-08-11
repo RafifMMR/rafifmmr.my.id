@@ -63,6 +63,27 @@ export function ShareMenu({ url }: { url: string }) {
             Share on X
           </a>
         </DropdownMenuItem>
+        <DropdownMenuItem asChild>
+          <a
+            href={`https://www.instagram.com/?url=${urlEncoded}`}
+            target="_blank"
+            rel="noopener"
+          >
+            <Icons.instagram />
+            Share on Instagram
+          </a>
+        </DropdownMenuItem>
+
+        <DropdownMenuItem asChild>
+          <a
+            href={`https://www.threads.net/intent/post?text=${urlEncoded}`}
+            target="_blank"
+            rel="noopener"
+          >
+            <Icons.threads />
+            Share on Threads
+          </a>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );
