@@ -18,6 +18,14 @@ export const TECH_STACK: TechStack[] = [
       "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751958251/css3-original.svg",
   },
   {
+    key: "scss",
+    title: "SCSS",
+    href: "https://sass-lang.com/",
+    categories: ["Language"],
+    image:
+      "https://res.cloudinary.com/dnuusu1kb/image/upload/v1756173496/scss-original.svg",
+  },
+  {
     key: "js",
     title: "JavaScript",
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -32,6 +40,14 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Language"],
     image:
       "https://res.cloudinary.com/dnuusu1kb/image/upload/v1751958251/typescript-original.svg",
+  },
+  {
+    key: "python",
+    title: "Python",
+    href: "https://www.python.org/",
+    categories: ["Language"],
+    image:
+      "https://res.cloudinary.com/dnuusu1kb/image/upload/v1756173729/python-original.svg",
   },
   {
     key: "react",

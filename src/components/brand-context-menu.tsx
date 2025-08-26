@@ -26,7 +26,9 @@ export function BrandContextMenu({ children }: { children: React.ReactNode }) {
       <ContextMenuContent className="w-64">
         <ContextMenuItem
           onClick={() => {
-            const svg = getMarkSVG(resolvedTheme === "light" ? "#000" : "#fff");
+            const svg = getMarkSVG(
+              resolvedTheme === "light" ? "#F55636" : "#F55636"
+            );
             copyText(svg);
             toast.success("Copied Mark as SVG");
           }}
@@ -38,7 +40,7 @@ export function BrandContextMenu({ children }: { children: React.ReactNode }) {
         <ContextMenuItem
           onClick={() => {
             const svg = getWordmarkSVG(
-              resolvedTheme === "light" ? "#000" : "#fff"
+              resolvedTheme === "light" ? "#0E0E0E" : "#FDFCF4"
             );
             copyText(svg);
             toast.success("Copied Logotype as SVG");
@@ -56,7 +58,7 @@ export function BrandContextMenu({ children }: { children: React.ReactNode }) {
         </ContextMenuItem>
 
         <ContextMenuItem asChild>
-          <a href="https://assets.chanhdai.com/chanhdai-brand.zip" download>
+          <a href="/rafifmmr-brand.zip" download>
             <DownloadIcon />
             Download Brand Assets
           </a>

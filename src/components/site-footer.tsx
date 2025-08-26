@@ -21,7 +21,7 @@ export function SiteFooter() {
             target="_blank"
             rel="noopener"
           >
-            ncdai
+            Rafifmmr
           </a>
           . The source code is available on{" "}
           <a

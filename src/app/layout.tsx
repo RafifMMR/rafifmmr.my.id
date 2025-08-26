@@ -77,7 +77,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "https://res.cloudinary.com/dnuusu1kb/image/upload/v1756090093/rafif-logo-favico.ico",
+        url: "https://res.cloudinary.com/dnuusu1kb/image/upload/v1756177290/rafifmmr-logo-favico.ico",
         sizes: "any",
       },
       {
