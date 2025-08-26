@@ -58,7 +58,7 @@ export function BrandContextMenu({ children }: { children: React.ReactNode }) {
         </ContextMenuItem>
 
         <ContextMenuItem asChild>
-          <a href="/rafifmmr-brand.zip" download>
+          <a href="https://rafifmmr.my.id/rafifmmr-brand.zip" download>
             <DownloadIcon />
             Download Brand Assets
           </a>
