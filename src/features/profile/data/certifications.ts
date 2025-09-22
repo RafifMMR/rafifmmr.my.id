@@ -21,4 +21,14 @@ export const CERTIFICATIONS: Certification[] = [
     credentialURL:
       "https://drive.google.com/file/d/1ghGzrDUgXYTHP_-tdAw9EoQpPXPcKCZw/view?usp=drive_link",
   },
+  {
+    title: "Ethereum Learner Certificate",
+    issuer: "HackQuest",
+    issuerLogoURL:
+      "https://res.cloudinary.com/dnuusu1kb/image/upload/v1756093784/hackquest-logo.png",
+    issueDate: "2025-09-22",
+    credentialID: "c2",
+    credentialURL:
+      "https://drive.google.com/file/d/1l6_-JOYz7LFYcpmRG3noJpYfs3gmJH9U/view?usp=drive_link",
+  },
 ];
