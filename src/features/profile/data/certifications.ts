@@ -27,8 +27,18 @@ export const CERTIFICATIONS: Certification[] = [
     issuerLogoURL:
       "https://res.cloudinary.com/dnuusu1kb/image/upload/v1756093784/hackquest-logo.png",
     issueDate: "2025-09-22",
-    credentialID: "c2",
+    credentialID: "c3",
     credentialURL:
       "https://drive.google.com/file/d/1l6_-JOYz7LFYcpmRG3noJpYfs3gmJH9U/view?usp=drive_link",
+  },
+  {
+    title: "Graphic Design with Figma Intensive Camp",
+    issuer: "Special Skill",
+    issuerLogoURL:
+      "https://res.cloudinary.com/dnuusu1kb/image/upload/v1758983587/special-skill-logo.png",
+    issueDate: "2025-09-27",
+    credentialID: "c4",
+    credentialURL:
+      "https://drive.google.com/file/d/1WkfqJqM8gsD85pWV__0dpbkhXbeykvNz/view?usp=drive_link",
   },
 ];
