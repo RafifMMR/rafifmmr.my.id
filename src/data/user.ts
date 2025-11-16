@@ -17,14 +17,14 @@ export const USER = {
 
   jobs: [
     {
-      title: "Co-Founder COO & (Chief Operating Officer) ",
-      company: "Mudapedia Digital Indonesia",
-      website: "https://mudapediadigitalindonesia.com",
+      title: "Co-Founder",
+      company: "Micholabs",
+      website: "https://micholabs.com",
     },
     {
       title: " Frontend Developer",
-      company: "Mudapedia Digital Indonesia",
-      website: "https://mudapediadigitalindonesia.com",
+      company: "Micholabs",
+      website: "https://micholabs.com",
     },
   ],
   about: `
