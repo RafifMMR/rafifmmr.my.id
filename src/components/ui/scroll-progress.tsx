@@ -1,7 +1,7 @@
 "use client";
 
 import type { MotionProps } from "motion/react";
-import { motion, useScroll } from "motion/react";
+import { m, useScroll } from "motion/react";
 
 import { cn } from "@/lib/utils";
 
@@ -15,13 +15,15 @@ export function ScrollProgress({
   ref,
   ...props
 }: ScrollProgressProps) {
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useScroll({
+    axis: "y",
+  });
 
   return (
-    <motion.div
+    <m.div
       ref={ref}
       className={cn(
-        "fixed inset-x-0 top-0 z-50 h-[1.5px] origin-left bg-gradient-to-r from-[#FF6461]/30 via-[#FF6461]/70 to-[#FF6461]/100 backdrop-blur-sm",
+        "fixed inset-x-0 top-0 z-50 h-[1.5px] origin-left bg-gradient-to-r from-[#F55636]/30 via-[#F55636]/70 to-[#F55636]/100 backdrop-blur-sm",
         className
       )}
       style={{
@@ -31,5 +33,3 @@ export function ScrollProgress({
     />
   );
 }
-
-// "fixed inset-x-0 top-0 z-50 h-0 origin-left bg-gradient-to-r from-[#A97CF8] via-[#F38CB8] to-[#FDCC92]",
