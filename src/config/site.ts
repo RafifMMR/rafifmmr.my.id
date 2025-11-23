@@ -23,10 +23,10 @@ export const MAIN_NAV: NavItem[] = [
     title: "Blog",
     href: "/blog",
   },
-  {
-    title: "Components",
-    href: "/components",
-  },
+  // {
+  //   title: "Components",
+  //   href: "/components",
+  // },
 ];
 
 export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com";

@@ -11,9 +11,7 @@ export default function BootLoader({
 }) {
   const [loading, setLoading] = useState(true);
 
-  if (loading) {
-    return <LoadingScreen onComplete={() => setLoading(false)} />;
-  }
+  if (loading) return <LoadingScreen onComplete={() => setLoading(false)} />;
 
   return <>{children}</>;
 }

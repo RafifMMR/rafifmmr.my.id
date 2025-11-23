@@ -166,14 +166,6 @@ export const TECH_STACK: TechStack[] = [
       "https://res.cloudinary.com/dnuusu1kb/image/upload/v1752027081/express-dark-original.svg",
   },
   {
-    key: "loopback",
-    title: "LoopBack",
-    href: "https://loopback.io/",
-    categories: ["Framework"],
-    image:
-      "https://res.cloudinary.com/dnuusu1kb/image/upload/v1752031514/loopback-original.svg",
-  },
-  {
     key: "react-router",
     title: "React Router",
     href: "https://reactrouter.com/",
